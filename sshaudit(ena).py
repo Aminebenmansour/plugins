@@ -1,7 +1,7 @@
 import os
 import re
 import subprocess
-from semiautorecon.plugins import ServiceScan
+from autorecon.plugins import ServiceScan
 
 class SSHAudit(ServiceScan):
 
@@ -46,7 +46,7 @@ class SSHAudit(ServiceScan):
         return clean_text
 
     async def save_audit_results(self, service, result):
-        scandir = service.target.scandir+service.protocol+str(service.port)
+        scandir = service.target.scandir+'/'
         filename = f"ssh_audit_results_port_{service.port}.txt"
         filepath = os.path.join(scandir, filename)
 

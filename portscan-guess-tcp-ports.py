@@ -1,5 +1,5 @@
-from semiautorecon.plugins import PortScan
-from semiautorecon.targets import Service
+from autorecon.plugins import PortScan
+from autorecon.targets import Service
 import re
 
 class GuessPortScan(PortScan):

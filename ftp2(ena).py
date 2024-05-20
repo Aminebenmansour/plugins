@@ -1,6 +1,6 @@
 import os
 import re
-from semiautorecon.plugins import ServiceScan
+from autorecon.plugins import ServiceScan
 import subprocess
 
 class FTPBackdoor(ServiceScan):

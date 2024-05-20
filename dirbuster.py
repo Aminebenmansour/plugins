@@ -1,5 +1,5 @@
-from semiautorecon.plugins import ServiceScan
-from semiautorecon.config import config
+from autorecon.plugins import ServiceScan
+from autorecon.config import config
 from shutil import which
 import os
 

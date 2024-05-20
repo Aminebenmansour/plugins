@@ -1,5 +1,5 @@
-from semiautorecon.plugins import PortScan
-from semiautorecon.config import config
+from autorecon.plugins import PortScan
+from autorecon.config import config
 
 class QuickTCPPortScan(PortScan):
 

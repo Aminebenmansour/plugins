@@ -1,6 +1,6 @@
 import telnetlib
 import os
-from semiautorecon.plugins import ServiceScan
+from autorecon.plugins import ServiceScan
 
 class POP3Audit(ServiceScan):
 

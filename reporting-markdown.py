@@ -1,5 +1,5 @@
-from semiautorecon.plugins import Report
-from semiautorecon.config import config
+from autorecon.plugins import Report
+from autorecon.config import config
 import os, glob
 
 class Markdown(Report):

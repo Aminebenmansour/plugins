@@ -1,5 +1,5 @@
-from semiautorecon.plugins import ServiceScan
-from semiautorecon.io import fformat
+from autorecon.plugins import ServiceScan
+from autorecon.io import fformat
 
 class CurlKnownSecurity(ServiceScan):
 

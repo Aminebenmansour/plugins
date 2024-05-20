@@ -1,4 +1,4 @@
-from semiautorecon.plugins import ServiceScan
+from autorecon.plugins import ServiceScan
 
 class NmapTFTP(ServiceScan):
 
